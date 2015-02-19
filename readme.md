@@ -1,5 +1,4 @@
 ## TECS Yogyakarta E-Commerce 
 **Thesis project**
 
-By Fuad 
-COntributed By Yussan :: twitter : @xyussanx
+By Fuad | Contributed By Yussan :: twitter : @xyussanx
