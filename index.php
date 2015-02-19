@@ -18,7 +18,7 @@
 |
 */
 
-require __DIR__.'/yus/bootstrap/autoload.php';
+require __DIR__.'/tecs/bootstrap/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -32,7 +32,7 @@ require __DIR__.'/yus/bootstrap/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/yus/bootstrap/start.php';
+$app = require_once __DIR__.'/tecs/bootstrap/start.php';
 
 /*
 |--------------------------------------------------------------------------
