@@ -1,20 +1,5 @@
 <?php
-
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the Closure to execute when that URI is requested.
-|
-*/
-
-Route::get('/', function()
-{
-	return 'What\'s app world';//route biasa
-});
+/*TEST UP*/
 Route::get('profile/{nama}',function($nama){
 	return 'Profile nama : '.$nama;//route dengan parameter
 });
@@ -22,9 +7,19 @@ Route::get('user/{nama?}',function($nama='kosong'){
 	//optional route parameters, jika para meter tidak diisi maka akan diganti null
 	return 'Profile nama : '.$nama;
 });
-//test controller
-Route::get('home','home@index');//home controller
 //controller dengan parameter
-Route::get('students/{name}','home@students');
+Route::get('students/{name}','Home@students');
 //double parameters
-Route::get('v/{id}/{name}','home@v');
+Route::get('v/{id}/{name}','Home@v');
+//test base view
+Route::get('welcome','Home@welcome');
+
+/*FOR PUBLIC*/
+Route::get('/','Home@index');
+
+/*TRANSACTIONS*/
+
+/*MEMBER ONLY*/
+
+/*ADMIN ONLY*/
+Route::get('admin','Admin@index');//login page
