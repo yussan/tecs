@@ -6,6 +6,7 @@
 					<div class="column">
 						<h1 style="font-size:20px">Admin Login</h1>
 						<div class="ui form segment">
+							<form method="POST">
 							<div class="field">
 								<label>Username</label>
 								<div class="ui left icon input">
@@ -24,7 +25,8 @@
 								<p>email dan password tidak cucok</p>
 							</div>
 							<a href="#">lupa password</a><br/><br/>
-							<div class="ui blue submit button">Login</div>
+							<div class=""><button class="ui blue submit button">Login</button></div>
+							</form>
 						</div>
 					</div>
 				</div>

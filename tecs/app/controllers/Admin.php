@@ -2,11 +2,18 @@
 // require_once();
 class Admin extends BaseController{
 	public function index(){
-		$Data = array
-		(
-		'title'=>'Admin Login'
-	);
-	return $this->baseView('admin/login',$Data);
+		if(!empty($_POST))
+		{
+
+		}else
+		{
+			$Data = array
+			(
+				'title'=>'Admin Login'
+				);
+			return $this->baseView('admin/login',$Data);
+		}
+		
 	}
 }
 ?>
