@@ -13,3 +13,5 @@
 -admin (CRUD(barang,transaksi,post,all categories,user))
 -member ([semua aksi public],transaksi,konfirmasi pembayaran,ticket submission)
 -public (list barang,search barang,single barang,contact admin,baca post)
+
+smo
