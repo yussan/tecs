@@ -770,3 +770,32 @@ Stack trace:
 Stack trace:
 #0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
 #1 {main} [] []
+[2015-07-25 13:06:05] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /var/www/html/project/2015/fuad-tecs/1.0/tecs/app/routes.php:6
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-07-25 13:06:09] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /var/www/html/project/2015/fuad-tecs/1.0/tecs/app/routes.php:6
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-07-25 13:07:04] production.ERROR: exception 'ReflectionException' with message 'Class APiController does not exist' in /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php:235
+Stack trace:
+#0 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(235): ReflectionClass->__construct('APiController')
+#1 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(205): Illuminate\Container\Container->build('APiController', Array)
+#2 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(583): Illuminate\Container\Container->make('APiController', Array)
+#3 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(5771): Illuminate\Foundation\Application->make('APiController')
+#4 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(5760): Illuminate\Routing\ControllerDispatcher->makeController('APiController')
+#5 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(4971): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'APiController', 'login')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(5329): call_user_func_array(Object(Closure), Array)
+#8 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(4996): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /var/www/html/project/2015/fuad-tecs/1.0/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []

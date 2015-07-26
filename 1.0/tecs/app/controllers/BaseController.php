@@ -7,18 +7,22 @@ class BaseController extends Controller {
 	 *
 	 * @return void
 	 */
-	protected function setupLayout()
-	{
-		if ( ! is_null($this->layout))
-		{
-			return $this->layout = View::make($this->layout);
-		}
-	}
+	
+	// BASE FUNCTION
+	
 	//base view
 	public function baseView($ChildView="",$Data="")
 	{
 		$Data['ChildView'] = $ChildView;
 		return $this->layout = View::make('bases/baseBody',$Data);
+	}
+
+	//API
+
+	//api key checker
+	public function apiKeyChecker($apikey)
+	{
+		
 	}
 
 }
