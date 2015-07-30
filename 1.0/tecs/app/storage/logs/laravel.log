@@ -1,0 +1,801 @@
+[2015-01-01 13:51:37] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in /opt/lampp/htdocs/oprek/laravel/laravel/app/routes.php:16
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-01 15:47:27] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php:5680
+Stack trace:
+#0 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/oprek/laravel/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-01 15:48:40] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php:5680
+Stack trace:
+#0 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/oprek/laravel/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 11:45:56] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php:5680
+Stack trace:
+#0 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/oprek/laravel/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 14:49:14] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php:5680
+Stack trace:
+#0 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/oprek/laravel/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 14:49:31] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'public' (T_PUBLIC), expecting identifier (T_STRING)' in /opt/lampp/htdocs/oprek/laravel/laravel/app/controllers/public.php:2
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 14:49:34] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'public' (T_PUBLIC), expecting identifier (T_STRING)' in /opt/lampp/htdocs/oprek/laravel/laravel/app/controllers/public.php:2
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 14:50:21] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'public' (T_PUBLIC), expecting identifier (T_STRING)' in /opt/lampp/htdocs/oprek/laravel/laravel/app/controllers/public.php:2
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 15:11:38] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'public' (T_PUBLIC), expecting identifier (T_STRING)' in /opt/lampp/htdocs/oprek/laravel/laravel/app/controllers/public.php:2
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 15:15:09] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php:5680
+Stack trace:
+#0 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/oprek/laravel/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 15:16:32] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'public' (T_PUBLIC), expecting identifier (T_STRING)' in /opt/lampp/htdocs/oprek/laravel/laravel/app/controllers/public.php:2
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 15:17:29] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'public' (T_PUBLIC), expecting identifier (T_STRING)' in /opt/lampp/htdocs/oprek/laravel/laravel/app/controllers/public.php:2
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-16 03:33:26] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php:5680
+Stack trace:
+#0 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/oprek/laravel/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-16 03:33:56] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php:5680
+Stack trace:
+#0 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/oprek/laravel/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-16 03:34:04] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php:5680
+Stack trace:
+#0 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/oprek/laravel/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-16 03:34:09] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php:5680
+Stack trace:
+#0 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/oprek/laravel/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-16 03:34:10] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php:5680
+Stack trace:
+#0 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/oprek/laravel/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-16 03:37:07] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'index' (T_STRING), expecting variable (T_VARIABLE)' in /opt/lampp/htdocs/oprek/laravel/laravel/app/controllers/home.php:4
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-16 03:37:09] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'index' (T_STRING), expecting variable (T_VARIABLE)' in /opt/lampp/htdocs/oprek/laravel/laravel/app/controllers/home.php:4
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-25 01:17:52] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php:5680
+Stack trace:
+#0 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /opt/lampp/htdocs/oprek/laravel/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/oprek/laravel/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-04-22 04:37:38] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:5680
+Stack trace:
+#0 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-04-22 08:04:54] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:05:16] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:05:17] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:06:54] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:06:55] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:06:56] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:06:56] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:07:04] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:07:13] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:07:21] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:07:31] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:07:39] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:07:40] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:07:40] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:07:44] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:07:44] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:08:00] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:08:03] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:08:06] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:08:22] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:08:22] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:08:23] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:09:21] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:09:22] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:09:22] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:09:22] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:09:22] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:09:29] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:09:55] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 08:12:10] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/routes.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 09:53:05] production.ERROR: exception 'ReflectionException' with message 'Class admin does not exist' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:235
+Stack trace:
+#0 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(235): ReflectionClass->__construct('admin')
+#1 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(205): Illuminate\Container\Container->build('admin', Array)
+#2 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(583): Illuminate\Container\Container->make('admin', Array)
+#3 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5771): Illuminate\Foundation\Application->make('admin')
+#4 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5760): Illuminate\Routing\ControllerDispatcher->makeController('admin')
+#5 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4971): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'admin', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5329): call_user_func_array(Object(Closure), Array)
+#8 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4996): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /opt/lampp/htdocs/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2015-04-22 09:53:28] production.ERROR: exception 'ReflectionException' with message 'Class admin does not exist' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:235
+Stack trace:
+#0 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(235): ReflectionClass->__construct('admin')
+#1 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(205): Illuminate\Container\Container->build('admin', Array)
+#2 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(583): Illuminate\Container\Container->make('admin', Array)
+#3 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5771): Illuminate\Foundation\Application->make('admin')
+#4 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5760): Illuminate\Routing\ControllerDispatcher->makeController('admin')
+#5 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4971): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'admin', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5329): call_user_func_array(Object(Closure), Array)
+#8 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4996): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /opt/lampp/htdocs/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2015-04-22 10:36:07] production.ERROR: exception 'ErrorException' with message 'Undefined variable: Data' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/Admin.php:9
+Stack trace:
+#0 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/Admin.php(9): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 9, Array)
+#1 [internal function]: Admin->index()
+#2 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(231): call_user_func_array(Array, Array)
+#3 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5776): Illuminate\Routing\Controller->callAction('index', Array)
+#4 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5764): Illuminate\Routing\ControllerDispatcher->call(Object(Admin), Object(Illuminate\Routing\Route), 'index')
+#5 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4971): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'Admin', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5329): call_user_func_array(Object(Closure), Array)
+#8 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4996): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /opt/lampp/htdocs/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2015-04-22 10:36:16] production.ERROR: exception 'BadMethodCallException' with message 'Method [baseUrl] does not exist.' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:268
+Stack trace:
+#0 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/Admin.php(9): Illuminate\Routing\Controller->__call('baseUrl', Array)
+#1 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/Admin.php(9): Admin->baseUrl('admin/login', Array)
+#2 [internal function]: Admin->index()
+#3 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(231): call_user_func_array(Array, Array)
+#4 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5776): Illuminate\Routing\Controller->callAction('index', Array)
+#5 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5764): Illuminate\Routing\ControllerDispatcher->call(Object(Admin), Object(Illuminate\Routing\Route), 'index')
+#6 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4971): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'Admin', 'index')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#8 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5329): call_user_func_array(Object(Closure), Array)
+#9 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4996): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 /opt/lampp/htdocs/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2015-04-22 10:36:27] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '>'' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/views/admin/login.php:9
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 10:36:28] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '>'' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/views/admin/login.php:9
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 10:36:51] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Method Illuminate\View\View::__toString() must not throw an exception' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/views/bases/baseBody.php:0
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 10:37:15] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '?>'' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/views/admin/login.php:9
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 10:45:05] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}', expecting ',' or ';'' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/views/bases/baseHeader.php:7
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 10:45:13] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}', expecting ',' or ';'' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/views/bases/baseHeader.php:7
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 10:53:35] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Method Illuminate\View\View::__toString() must not throw an exception' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/views/bases/baseBody.php:0
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 10:54:15] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Method Illuminate\View\View::__toString() must not throw an exception' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/views/bases/baseBody.php:0
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-04-22 10:54:44] production.ERROR: exception 'ErrorException' with message 'Undefined variable: Data' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/views/bases/baseBody.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/views/bases/baseBody.php(3): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 3, Array)
+#1 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9798): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9790): Illuminate\View\Engines\PhpEngine->evaluatePath('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9676): Illuminate\View\Engines\PhpEngine->get('/opt/lampp/htdo...', Array)
+#4 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#5 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#6 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#7 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 /opt/lampp/htdocs/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2015-04-22 11:37:02] production.ERROR: exception 'ErrorException' with message 'Undefined property: Illuminate\View\Engines\PhpEngine::$data' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/views/bases/baseBody.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/views/bases/baseBody.php(2): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/opt/lampp/htdo...', 2, Array)
+#1 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9798): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9790): Illuminate\View\Engines\PhpEngine->evaluatePath('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9676): Illuminate\View\Engines\PhpEngine->get('/opt/lampp/htdo...', Array)
+#4 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#5 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#6 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#7 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 /opt/lampp/htdocs/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2015-04-22 11:49:36] production.ERROR: exception 'ErrorException' with message 'Array to string conversion' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/BaseController.php:21
+Stack trace:
+#0 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/BaseController.php(21): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/opt/lampp/htdo...', 21, Array)
+#1 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/Admin.php(9): BaseController->baseView('admin/login', Array)
+#2 [internal function]: Admin->index()
+#3 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(231): call_user_func_array(Array, Array)
+#4 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5776): Illuminate\Routing\Controller->callAction('index', Array)
+#5 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5764): Illuminate\Routing\ControllerDispatcher->call(Object(Admin), Object(Illuminate\Routing\Route), 'index')
+#6 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4971): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'Admin', 'index')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#8 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5329): call_user_func_array(Object(Closure), Array)
+#9 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4996): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 /opt/lampp/htdocs/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2015-04-22 11:50:34] production.ERROR: exception 'ErrorException' with message 'Missing argument 2 for Illuminate\View\View::nest(), called in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/BaseController.php on line 21 and defined' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:9697
+Stack trace:
+#0 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9697): Illuminate\Exception\Handler->handleError(2, 'Missing argumen...', '/opt/lampp/htdo...', 9697, Array)
+#1 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/BaseController.php(21): Illuminate\View\View->nest('admin/login')
+#2 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/Admin.php(9): BaseController->baseView('admin/login', Array)
+#3 [internal function]: Admin->index()
+#4 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(231): call_user_func_array(Array, Array)
+#5 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5776): Illuminate\Routing\Controller->callAction('index', Array)
+#6 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5764): Illuminate\Routing\ControllerDispatcher->call(Object(Admin), Object(Illuminate\Routing\Route), 'index')
+#7 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4971): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'Admin', 'index')
+#8 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#9 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5329): call_user_func_array(Object(Closure), Array)
+#10 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4996): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 /opt/lampp/htdocs/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#20 {main} [] []
+[2015-04-22 11:52:41] production.ERROR: exception 'InvalidArgumentException' with message 'View [child.view] not found.' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:9429
+Stack trace:
+#0 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9402): Illuminate\View\FileViewFinder->findInPaths('child.view', Array)
+#1 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/View/Factory.php(124): Illuminate\View\FileViewFinder->find('child.view')
+#2 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9699): Illuminate\View\Factory->make('child.view', Array)
+#3 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/BaseController.php(21): Illuminate\View\View->nest('admin/login', 'child.view')
+#4 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/Admin.php(9): BaseController->baseView('admin/login', Array)
+#5 [internal function]: Admin->index()
+#6 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(231): call_user_func_array(Array, Array)
+#7 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5776): Illuminate\Routing\Controller->callAction('index', Array)
+#8 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5764): Illuminate\Routing\ControllerDispatcher->call(Object(Admin), Object(Illuminate\Routing\Route), 'index')
+#9 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4971): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'Admin', 'index')
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5329): call_user_func_array(Object(Closure), Array)
+#12 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4996): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#14 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#20 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#21 /opt/lampp/htdocs/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2015-04-22 11:53:14] production.ERROR: exception 'InvalidArgumentException' with message 'View [baseFooter.view] not found.' in /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:9429
+Stack trace:
+#0 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9402): Illuminate\View\FileViewFinder->findInPaths('baseFooter.view', Array)
+#1 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/View/Factory.php(124): Illuminate\View\FileViewFinder->find('baseFooter.view')
+#2 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9699): Illuminate\View\Factory->make('baseFooter.view', Array)
+#3 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/BaseController.php(21): Illuminate\View\View->nest('bases/baseHeade...', 'baseFooter.view', Array)
+#4 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/app/controllers/Admin.php(9): BaseController->baseView('admin/login', Array)
+#5 [internal function]: Admin->index()
+#6 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(231): call_user_func_array(Array, Array)
+#7 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5776): Illuminate\Routing\Controller->callAction('index', Array)
+#8 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5764): Illuminate\Routing\ControllerDispatcher->call(Object(Admin), Object(Illuminate\Routing\Route), 'index')
+#9 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4971): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'Admin', 'index')
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5329): call_user_func_array(Object(Closure), Array)
+#12 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4996): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#14 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#20 /opt/lampp/htdocs/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#21 /opt/lampp/htdocs/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2015-05-13 07:59:40] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:5680
+Stack trace:
+#0 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/html/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-05-20 17:56:00] production.ERROR: exception 'InvalidArgumentException' with message 'View [bases/{{ChildView}}] not found.' in /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:9429
+Stack trace:
+#0 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9402): Illuminate\View\FileViewFinder->findInPaths('bases/{{ChildVi...', Array)
+#1 /var/www/html/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/View/Factory.php(124): Illuminate\View\FileViewFinder->find('bases/{{ChildVi...')
+#2 /var/www/html/project/2015/fuad-tecs/tecs/app/storage/views/29cb17978c95b1706e6381a3b1a71f21(3): Illuminate\View\Factory->make('bases/{{ChildVi...', Array)
+#3 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9798): include('/var/www/html/p...')
+#4 /var/www/html/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/html/p...', Array)
+#5 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/var/www/html/p...', Array)
+#6 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#7 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#8 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#9 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#10 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#11 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#12 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#13 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /var/www/html/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'ErrorException' with message 'View [bases/{{ChildView}}] not found. (View: /var/www/html/project/2015/fuad-tecs/tecs/app/views/bases/baseBody.blade.php)' in /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:9429
+Stack trace:
+#0 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 /var/www/html/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/html/p...', Array)
+#2 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/var/www/html/p...', Array)
+#3 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#4 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#5 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#6 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /var/www/html/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2015-05-20 17:56:14] production.ERROR: exception 'InvalidArgumentException' with message 'View [bases/{{ChildView}}] not found.' in /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:9429
+Stack trace:
+#0 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9402): Illuminate\View\FileViewFinder->findInPaths('bases/{{ChildVi...', Array)
+#1 /var/www/html/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/View/Factory.php(124): Illuminate\View\FileViewFinder->find('bases/{{ChildVi...')
+#2 /var/www/html/project/2015/fuad-tecs/tecs/app/storage/views/29cb17978c95b1706e6381a3b1a71f21(4): Illuminate\View\Factory->make('bases/{{ChildVi...', Array)
+#3 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9798): include('/var/www/html/p...')
+#4 /var/www/html/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/html/p...', Array)
+#5 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/var/www/html/p...', Array)
+#6 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#7 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#8 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#9 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#10 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#11 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#12 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#13 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /var/www/html/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'ErrorException' with message 'View [bases/{{ChildView}}] not found. (View: /var/www/html/project/2015/fuad-tecs/tecs/app/views/bases/baseBody.blade.php)' in /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:9429
+Stack trace:
+#0 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 /var/www/html/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/html/p...', Array)
+#2 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/var/www/html/p...', Array)
+#3 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#4 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#5 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#6 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /var/www/html/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2015-05-20 17:57:13] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '{'' in /var/www/html/project/2015/fuad-tecs/tecs/app/storage/views/29cb17978c95b1706e6381a3b1a71f21:3
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-05-20 17:57:45] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '$ChildView' (T_VARIABLE)' in /var/www/html/project/2015/fuad-tecs/tecs/app/storage/views/29cb17978c95b1706e6381a3b1a71f21:3
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-05-20 17:58:16] production.ERROR: exception 'InvalidArgumentException' with message 'View [bases/admin/login] not found.' in /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:9429
+Stack trace:
+#0 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9402): Illuminate\View\FileViewFinder->findInPaths('bases/admin/log...', Array)
+#1 /var/www/html/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/View/Factory.php(124): Illuminate\View\FileViewFinder->find('bases/admin/log...')
+#2 /var/www/html/project/2015/fuad-tecs/tecs/app/storage/views/29cb17978c95b1706e6381a3b1a71f21(3): Illuminate\View\Factory->make('bases/admin/log...', Array)
+#3 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9798): include('/var/www/html/p...')
+#4 /var/www/html/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/html/p...', Array)
+#5 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/var/www/html/p...', Array)
+#6 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#7 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#8 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#9 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#10 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#11 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#12 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#13 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /var/www/html/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'ErrorException' with message 'View [bases/admin/login] not found. (View: /var/www/html/project/2015/fuad-tecs/tecs/app/views/bases/baseBody.blade.php)' in /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:9429
+Stack trace:
+#0 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 /var/www/html/project/2015/fuad-tecs/tecs/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/html/p...', Array)
+#2 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('/var/www/html/p...', Array)
+#3 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9663): Illuminate\View\View->getContents()
+#4 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9654): Illuminate\View\View->renderContents()
+#5 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10357): Illuminate\View\View->render()
+#6 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5189): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4998): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /var/www/html/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2015-05-20 18:01:17] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php:5704
+Stack trace:
+#0 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5700): Illuminate\Routing\RouteCollection->methodNotAllowed(Array)
+#1 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5678): Illuminate\Routing\RouteCollection->getOtherMethodsRoute(Object(Illuminate\Http\Request), Array)
+#2 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#3 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#4 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /var/www/html/project/2015/fuad-tecs/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /var/www/html/project/2015/fuad-tecs/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-05-20 18:04:42] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<<' (T_SL)' in /var/www/html/project/2015/fuad-tecs/tecs/app/controllers/Admin.php:5
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-05-20 18:04:44] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<<' (T_SL)' in /var/www/html/project/2015/fuad-tecs/tecs/app/controllers/Admin.php:5
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-05-20 18:05:23] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<<' (T_SL)' in /var/www/html/project/2015/fuad-tecs/tecs/app/controllers/Admin.php:5
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-06-18 04:04:23] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'extends' (T_EXTENDS)' in /var/www/html/project/2015/fuad-tecs/tecs/app/storage/views/29cb17978c95b1706e6381a3b1a71f21:2
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-07-25 13:06:05] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /var/www/html/project/2015/fuad-tecs/1.0/tecs/app/routes.php:6
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-07-25 13:06:09] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function get()' in /var/www/html/project/2015/fuad-tecs/1.0/tecs/app/routes.php:6
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-07-25 13:07:04] production.ERROR: exception 'ReflectionException' with message 'Class APiController does not exist' in /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php:235
+Stack trace:
+#0 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(235): ReflectionClass->__construct('APiController')
+#1 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(205): Illuminate\Container\Container->build('APiController', Array)
+#2 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(583): Illuminate\Container\Container->make('APiController', Array)
+#3 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(5771): Illuminate\Foundation\Application->make('APiController')
+#4 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(5760): Illuminate\Routing\ControllerDispatcher->makeController('APiController')
+#5 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(4971): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'APiController', 'login')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(5329): call_user_func_array(Object(Closure), Array)
+#8 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(4996): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /var/www/html/project/2015/fuad-tecs/1.0/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
