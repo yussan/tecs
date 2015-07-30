@@ -18,12 +18,12 @@ Route::group(['prefix'=>'api'],function(){
 		Route::post('rate','APIController@rate');//rate item
 	});
 	//for transaksi
-	Route::group(['prefix'=>'transaksi'].function(){
+	Route::group(['prefix'=>'transaksi'],function(){
 		Route::get('action','APIController@actionTransaksi');//add / delete
-		Route::get('list','APIController@alistTransaksi');//listing
+		Route::get('list','APIController@listTransaksi');//listing
 	});
 	//for konfirmasi
-	Route::group(['prefix'=>'konfirmasi'].function(){
+	Route::group(['prefix'=>'konfirmasi'],function(){
 		Route::get('action','APIController@actionKonformasi');//add / delete
 		Route::get('list','APIController@listKonfirmasi');//listing
 	});

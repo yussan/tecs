@@ -807,3 +807,87 @@ Stack trace:
 Stack trace:
 #0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
 #1 {main} [] []
+[2015-07-30 14:20:29] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Object of class Closure could not be converted to string' in /var/www/html/project/2015/fuad-tecs/1.0/tecs/app/routes.php:24
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-07-30 14:21:17] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Object of class Closure could not be converted to string' in /var/www/html/project/2015/fuad-tecs/1.0/tecs/app/routes.php:24
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-07-30 14:21:43] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Object of class Closure could not be converted to string' in /var/www/html/project/2015/fuad-tecs/1.0/tecs/app/routes.php:24
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-07-30 14:25:22] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Object of class Closure could not be converted to string' in /var/www/html/project/2015/fuad-tecs/1.0/tecs/app/routes.php:24
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-07-30 14:26:01] production.ERROR: exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'forge'@'localhost' (using password: NO)' in /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'forge', '', Array)
+#1 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(7632): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(7628): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(7540): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#5 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(7495): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#6 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(167): Illuminate\Database\DatabaseManager->connection(NULL)
+#7 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(135): Illuminate\Database\Migrations\DatabaseMigrationRepository->getConnection()
+#8 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(371): Illuminate\Database\Migrations\DatabaseMigrationRepository->repositoryExists()
+#9 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(98): Illuminate\Database\Migrations\Migrator->repositoryExists()
+#10 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(61): Illuminate\Database\Console\Migrations\MigrateCommand->prepareDatabase()
+#11 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#12 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /var/www/html/project/2015/fuad-tecs/1.0/tecs/artisan(59): Symfony\Component\Console\Application->run()
+#18 {main} [] []
+[2015-07-30 14:27:02] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1' in /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Connection.php:369
+Stack trace:
+#0 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Connection.php(369): PDO->prepare('alter table `bl...')
+#1 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'alter table `bl...', Array)
+#2 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `bl...', Array, Object(Closure))
+#3 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `bl...', Array, Object(Closure))
+#4 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `bl...')
+#5 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(3238): Illuminate\Database\Schema\Builder->create('blog', Object(Closure))
+#8 /var/www/html/project/2015/fuad-tecs/1.0/tecs/app/database/migrations/2015_07_30_112154_blog.php(26): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#9 /var/www/html/project/2015/fuad-tecs/1.0/tecs/app/database/migrations/2015_07_30_112154_blog.php(26): Illuminate\Support\Facades\Schema::create('blog', Object(Closure))
+#10 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): Blog->up()
+#11 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_07_30_1121...', 1, false)
+#12 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#13 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/var/www/html/p...', false)
+#14 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /var/www/html/project/2015/fuad-tecs/1.0/tecs/artisan(59): Symfony\Component\Console\Application->run()
+#21 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1 (SQL: alter table `blog` add constraint blog_idadmin_foreign foreign key (`idAdmin`) references `Admin` (`idAdmin`) on delete null)' in /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `bl...', Array, Object(Closure))
+#1 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `bl...', Array, Object(Closure))
+#2 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `bl...')
+#3 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(3238): Illuminate\Database\Schema\Builder->create('blog', Object(Closure))
+#6 /var/www/html/project/2015/fuad-tecs/1.0/tecs/app/database/migrations/2015_07_30_112154_blog.php(26): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#7 /var/www/html/project/2015/fuad-tecs/1.0/tecs/app/database/migrations/2015_07_30_112154_blog.php(26): Illuminate\Support\Facades\Schema::create('blog', Object(Closure))
+#8 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): Blog->up()
+#9 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_07_30_1121...', 1, false)
+#10 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/var/www/html/p...', false)
+#12 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /var/www/html/project/2015/fuad-tecs/1.0/tecs/artisan(59): Symfony\Component\Console\Application->run()
+#19 {main} [] []
