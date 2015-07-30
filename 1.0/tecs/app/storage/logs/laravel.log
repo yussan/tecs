@@ -799,3 +799,11 @@ Stack trace:
 #16 /var/www/html/project/2015/fuad-tecs/1.0/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
 #17 /var/www/html/project/2015/fuad-tecs/1.0/index.php(49): Illuminate\Foundation\Application->run()
 #18 {main} [] []
+[2015-07-30 14:12:31] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Object of class Closure could not be converted to string' in D:\local\htdocs\www\tecs\1.0\tecs\app\routes.php:24
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-07-30 14:12:40] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Object of class Closure could not be converted to string' in D:\local\htdocs\www\tecs\1.0\tecs\app\routes.php:24
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
