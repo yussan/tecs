@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f4b8b8-d971-4976-b5d5-865b0f3105fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_111748_admin.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_111748_admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_111911_pemasok.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_111911_pemasok.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112040_tagPost.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112040_tagPost.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112154_blog.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112154_blog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112326_subKategori.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112326_subKategori.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112455_mainKategori.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112455_mainKategori.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112557_bank.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112557_bank.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112645_merk.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112645_merk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112736_jamKerja.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112736_jamKerja.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112826_slider.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112826_slider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112908_barang.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_112908_barang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113013_pasokan.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113013_pasokan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113112_member.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113112_member.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113204_rate.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113204_rate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113301_review.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113301_review.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113347_wishlist.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113347_wishlist.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113436_transaksi.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113436_transaksi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113525_transaksiItem.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113525_transaksiItem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113611_ticket.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113611_ticket.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113705_obrolanTicket.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113705_obrolanTicket.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113802_spesifikasi.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113802_spesifikasi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113845_pictureAlbum.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/database/migrations/2015_07_30_113845_pictureAlbum.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/config/database.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/storage/logs/laravel.log" afterPath="$PROJECT_DIR$/1.0/tecs/app/storage/logs/laravel.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0/tecs/app/routes.php" afterPath="$PROJECT_DIR$/1.0/tecs/app/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fuad-tecs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,27 +20,30 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="fuad-tecs" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1.0/tecs/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.666666">
+            <state vertical-scroll-proportion="0.72649574" vertical-offset="0" max-vertical-offset="782">
               <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.0/tecs/app/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3943662">
-              <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+            <state vertical-scroll-proportion="-38.576923" vertical-offset="0" max-vertical-offset="2210">
+              <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -86,15 +66,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="NamedScopeManager">
-    <order />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1366" />
-    <option name="y" value="-4" />
-    <option name="width" value="1366" />
-    <option name="height" value="772" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -133,7 +110,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fuad-tecs" />
+              <option name="myItemId" value="tecs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -147,7 +124,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fuad-tecs" />
+              <option name="myItemId" value="tecs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -165,29 +142,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fuad-tecs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="tecs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fuad-tecs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fuad-tecs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -202,15 +157,93 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="fuad-tecs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tecs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tecs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuad-tecs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tecs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tecs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuad-tecs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tecs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tecs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,6 +252,9 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -231,31 +267,45 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="-4" width="1366" height="772" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -264,7 +314,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/1.0/tecs/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.666666">
+        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="782">
           <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding />
         </state>
@@ -272,8 +322,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1.0/tecs/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3943662">
-          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.0/tecs/app/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-38.576923" vertical-offset="0" max-vertical-offset="2210">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.0/tecs/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72649574" vertical-offset="0" max-vertical-offset="782">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding />
         </state>
       </provider>
