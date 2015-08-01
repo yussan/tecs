@@ -12,10 +12,10 @@ class Wishlist extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('wishlist', function($table){
+		Schema::create('wishlist', function(Blueprint $table){
 			$table->engine = 'InnoDB';
 			$table->text('wishlist'); //json
-			$table->bigInteger('idMember');
+			$table->bigInteger('idMember')->unsigned();
 			$table->foreign('idMember')->references('idMember')->on('member')->onDelete('cascade');
 		});
 	}

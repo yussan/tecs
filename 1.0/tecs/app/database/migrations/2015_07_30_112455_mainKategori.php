@@ -12,7 +12,7 @@ class MainKategori extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('MainKategori', function($table){
+		Schema::create('MainKategori', function(Blueprint $table){
 			$table->engine = 'InnoDB';
 			$table->increments('idKategori');
 			$table->string('namaKategori',100);

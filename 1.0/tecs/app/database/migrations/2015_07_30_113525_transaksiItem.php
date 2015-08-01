@@ -12,12 +12,12 @@ class TransaksiItem extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('transaksiItem', function($table){
+		Schema::create('transaksiItem', function(Blueprint $table){
 			$table->engine = 'InnoDB';
 			$table->integer('qBarang');
 			$table->integer('subTotal');
 			$table->bigInteger('idBarang')->unsigned()->nullable();
-			$table->foreign('idBarang')->references('idBarang')->on('barang')->onDelete('null');
+			$table->foreign('idBarang')->references('idBarang')->on('barang')->onDelete('set null');
 		});
 	}
 

@@ -12,7 +12,7 @@ class PictureAlbum extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('pictureAlbum', function($table){
+		Schema::create('pictureAlbum', function(Blueprint $table){
 			$table->engine = 'InnoDB';
 			$table->bigIncrements('idPicture');
 			$table->string('namaPicture',200);

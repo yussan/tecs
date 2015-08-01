@@ -12,7 +12,7 @@ class Member extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('member',function($table){
+		Schema::create('member',function(Blueprint $table){
 			$table->engine = 'InnoDB';
 			$table->bigIncrements('idMember');
 			$table->string('usernameMember',10)->unique();
@@ -26,7 +26,7 @@ class Member extends Migration {
 			$table->integer('idFacebook');
 			$table->integer('idGoogleplus');
 			$table->integer('idBank')->unsigned()->nullable();
-			$table->foreign('idBank')->references('idBank')->on('bank')->onDelete('null');
+			$table->foreign('idBank')->references('idBank')->on('bank')->onDelete('set null');
 		});
 	}
 

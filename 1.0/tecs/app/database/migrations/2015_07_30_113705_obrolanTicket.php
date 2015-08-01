@@ -12,7 +12,7 @@ class ObrolanTicket extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('obrolanTicket',function($table){
+		Schema::create('obrolanTicket',function(Blueprint $table){
 			$table->engine = 'InnoDB';
 			$table->integer('idTicket');
 			$table->string('kontenObrolanticket',200);

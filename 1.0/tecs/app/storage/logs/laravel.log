@@ -891,3 +891,105 @@ Stack trace:
 #17 /var/www/html/project/2015/fuad-tecs/1.0/tecs/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #18 /var/www/html/project/2015/fuad-tecs/1.0/tecs/artisan(59): Symfony\Component\Console\Application->run()
 #19 {main} [] []
+[2015-07-31 06:28:37] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1' in D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php:369
+Stack trace:
+#0 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php(369): PDO->prepare('alter table `bl...')
+#1 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'alter table `bl...', Array)
+#2 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `bl...', Array, Object(Closure))
+#3 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('alter table `bl...', Array, Object(Closure))
+#4 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Schema\Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `bl...')
+#5 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 D:\local\htdocs\www\tecs\1.0\tecs\bootstrap\compiled.php(3238): Illuminate\Database\Schema\Builder->create('blog', Object(Closure))
+#8 D:\local\htdocs\www\tecs\1.0\tecs\app\database\migrations\2015_07_30_112154_blog.php(26): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#9 D:\local\htdocs\www\tecs\1.0\tecs\app\database\migrations\2015_07_30_112154_blog.php(26): Illuminate\Support\Facades\Schema::create('blog', Object(Closure))
+#10 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(135): Blog->up()
+#11 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_07_30_1121...', 1, false)
+#12 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#13 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('D:\\local\\htdocs...', false)
+#14 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 D:\local\htdocs\www\tecs\1.0\tecs\artisan(59): Symfony\Component\Console\Application->run()
+#21 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1 (SQL: alter table `blog` add constraint blog_idadmin_foreign foreign key (`idAdmin`) references `Admin` (`idAdmin`) on delete null)' in D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php:625
+Stack trace:
+#0 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `bl...', Array, Object(Closure))
+#1 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('alter table `bl...', Array, Object(Closure))
+#2 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Schema\Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `bl...')
+#3 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 D:\local\htdocs\www\tecs\1.0\tecs\bootstrap\compiled.php(3238): Illuminate\Database\Schema\Builder->create('blog', Object(Closure))
+#6 D:\local\htdocs\www\tecs\1.0\tecs\app\database\migrations\2015_07_30_112154_blog.php(26): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#7 D:\local\htdocs\www\tecs\1.0\tecs\app\database\migrations\2015_07_30_112154_blog.php(26): Illuminate\Support\Facades\Schema::create('blog', Object(Closure))
+#8 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(135): Blog->up()
+#9 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_07_30_1121...', 1, false)
+#10 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('D:\\local\\htdocs...', false)
+#12 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 D:\local\htdocs\www\tecs\1.0\tecs\artisan(59): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2015-08-01 12:08:11] production.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1215 Cannot add foreign key constraint' in D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php:369
+Stack trace:
+#0 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php(369): PDOStatement->execute(Array)
+#1 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'alter table `wi...', Array)
+#2 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `wi...', Array, Object(Closure))
+#3 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('alter table `wi...', Array, Object(Closure))
+#4 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Schema\Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `wi...')
+#5 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 D:\local\htdocs\www\tecs\1.0\tecs\bootstrap\compiled.php(3238): Illuminate\Database\Schema\Builder->create('wishlist', Object(Closure))
+#8 D:\local\htdocs\www\tecs\1.0\tecs\app\database\migrations\2015_07_30_113347_wishlist.php(20): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#9 D:\local\htdocs\www\tecs\1.0\tecs\app\database\migrations\2015_07_30_113347_wishlist.php(20): Illuminate\Support\Facades\Schema::create('wishlist', Object(Closure))
+#10 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(135): Wishlist->up()
+#11 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_07_30_1133...', 1, false)
+#12 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#13 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('D:\\local\\htdocs...', false)
+#14 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 D:\local\htdocs\www\tecs\1.0\tecs\artisan(59): Symfony\Component\Console\Application->run()
+#21 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[HY000]: General error: 1215 Cannot add foreign key constraint (SQL: alter table `wishlist` add constraint wishlist_idmember_foreign foreign key (`idMember`) references `member` (`idMember`) on delete cascade)' in D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php:625
+Stack trace:
+#0 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `wi...', Array, Object(Closure))
+#1 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('alter table `wi...', Array, Object(Closure))
+#2 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Schema\Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `wi...')
+#3 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 D:\local\htdocs\www\tecs\1.0\tecs\bootstrap\compiled.php(3238): Illuminate\Database\Schema\Builder->create('wishlist', Object(Closure))
+#6 D:\local\htdocs\www\tecs\1.0\tecs\app\database\migrations\2015_07_30_113347_wishlist.php(20): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#7 D:\local\htdocs\www\tecs\1.0\tecs\app\database\migrations\2015_07_30_113347_wishlist.php(20): Illuminate\Support\Facades\Schema::create('wishlist', Object(Closure))
+#8 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(135): Wishlist->up()
+#9 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_07_30_1133...', 1, false)
+#10 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('D:\\local\\htdocs...', false)
+#12 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 D:\local\htdocs\www\tecs\1.0\tecs\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 D:\local\htdocs\www\tecs\1.0\tecs\artisan(59): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2015-08-01 12:18:50] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Database\Schema\Blueprint::bigIncrement()' in D:\local\htdocs\www\tecs\1.0\tecs\app\database\migrations\2015_07_30_113802_spesifikasi.php:17
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-08-01 12:22:00] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'ObrolanTicket' not found' in D:\local\htdocs\www\tecs\1.0\tecs\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:301
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

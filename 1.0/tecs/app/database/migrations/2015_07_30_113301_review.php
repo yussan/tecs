@@ -12,7 +12,7 @@ class Review extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('review', function($table){
+		Schema::create('review', function(Blueprint $table){
 			$table->engine = 'InnoDB';
 			$table->increments('idReview');
 			$table->string('kontenReview',200);

@@ -12,7 +12,7 @@ class Ticket extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('ticket',function($table){
+		Schema::create('ticket',function(Blueprint $table){
 			$table->engine = 'InnoDB';
 			$table->increments('idTicket');
 			$table->string('subjectTicket',50);

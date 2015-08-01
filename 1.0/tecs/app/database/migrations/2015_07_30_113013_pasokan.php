@@ -12,7 +12,7 @@ class Pasokan extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('pasokan', function($table){
+		Schema::create('pasokan', function(Blueprint $table){
 			$table->engine = 'InnoDB';
 			$table->bigIncrements('idPasokan');
 			$table->integer('rpAwal');
@@ -24,9 +24,9 @@ class Pasokan extends Migration {
 			$table->integer('idPemasok')->unsigned()->nullable();
 			$table->bigInteger('idBarang')->unsigned()->nullable();
 			$table->integer('idAdmin')->unsigned()->nullable();
-			$table->foreign('idPemasok')->references('idPemasok')->on('pemasok')->onDelete('null');
-			$table->foreign('idBarang')->references('idBarang')->on('barang')->onDelete('null');
-			$table->foreign('idAdmin')->references('idAdmin')->on('admin')->onDelete('null');
+			$table->foreign('idPemasok')->references('idPemasok')->on('pemasok')->onDelete('set null');
+			$table->foreign('idBarang')->references('idBarang')->on('barang')->onDelete('set null');
+			$table->foreign('idAdmin')->references('idAdmin')->on('admin')->onDelete('set null');
 		});
 	}
 

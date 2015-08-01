@@ -12,7 +12,7 @@ class Blog extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('blog',function($table){
+		Schema::create('blog',function(Blueprint $table){
 			$table->engine = 'InnoDB';
 			$table->increments('idBlog');
 			$table->string('judul',100);
@@ -21,8 +21,8 @@ class Blog extends Migration {
 			$table->timestamps('updateBlog');
 			$table->integer('idAdmin')->unsigned()->nullable();
 			$table->integer('idTag')->unsigned()->nullable();
-			$table->foreign('idAdmin')->references('idAdmin')->on('Admin')->onDelete('null');
-			$table->foreign('idTag')->references('idTag')->on('tagPost')->onDelete('null');
+			$table->foreign('idAdmin')->references('idAdmin')->on('Admin')->onDelete('set null');
+			$table->foreign('idTag')->references('idTag')->on('tagPost')->onDelete('set null');
 		});
 	}
 

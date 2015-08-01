@@ -12,9 +12,9 @@ class Spesifikasi extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('spesifikasi', function($table){
+		Schema::create('spesifikasi', function(Blueprint $table){
 			$table->engine = 'InnoDB';
-			$table->bigIncrement('idSpesifikasi');
+			$table->bigIncrements('idSpesifikasi');
 			$table->string('namaSpesifikasi',100);
 			$table->string('ketSpesifikasi',250);
 			$table->bigInteger('idBarang')->unsigned();

@@ -12,7 +12,7 @@ class Barang extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('barang', function($table){
+		Schema::create('barang', function(Blueprint $table){
 			$table->engine = 'InnoDB';
 			$table->bigIncrements('idBarang');
 			$table->string('namaBarang',100);
@@ -29,7 +29,7 @@ class Barang extends Migration {
 			$table->integer('idAdmin')->unsigned()->nullable();
 			$table->foreign('idKategori')->references('idKategori')->on('mainKategori')->onDelete('cascade');
 			$table->foreign('idMerk')->references('idMerk')->on('merk')->onDelete('cascade');
-			$table->foreign('idAdmin')->references('idAdmin')->on('admin')->onDelete('null');
+			$table->foreign('idAdmin')->references('idAdmin')->on('admin')->onDelete('set null');
 		});
 	}
 

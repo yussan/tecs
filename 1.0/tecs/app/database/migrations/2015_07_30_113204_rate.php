@@ -12,7 +12,7 @@ class Rate extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('rate',function($table){
+		Schema::create('rate',function(Blueprint $table){
 			$table->engine = 'InnoDB';
 			$table->bigInteger('idMember')->unsigned();
 			$table->text('nilaiRate');

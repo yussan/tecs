@@ -12,7 +12,7 @@ class Transaksi extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('transaksi', function($table){
+		Schema::create('transaksi', function(Blueprint $table){
 			$table->engine = 'InnoDB';
 			$table->bigIncrements('idTransaksi');
 			$table->dateTime('tglTransaksi');
@@ -22,8 +22,8 @@ class Transaksi extends Migration {
 			$table->integer('totalBayar');
 			$table->integer('idBank')->unsigned()->nullable();
 			$table->bigInteger('idMember')->unsigned()->nullable();
-			$table->foreign('idBank')->references('idBank')->on('bank')->onDelete('null');
-			$table->foreign('idMember')->references('idMember')->on('member')->onDelete('null');
+			$table->foreign('idBank')->references('idBank')->on('bank')->onDelete('set null');
+			$table->foreign('idMember')->references('idMember')->on('member')->onDelete('set null');
 		});
 	}
 
