@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'tecs',
+			'database'  => '2015_tecs',
 			'username'  => 'root',
-			'password'  => '',
+			'password'  => 'rahasia',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

@@ -7,9 +7,13 @@ class BaseController extends Controller {
 	 *
 	 * @return void
 	 */
-	
-	// BASE FUNCTION
-	
+	//constructor
+	public function __construct()
+	{
+		//models decalaration
+		$this->M_member = new Member;
+	}
+
 	//base view
 	public function baseView($ChildView="",$Data="")
 	{
@@ -18,11 +22,14 @@ class BaseController extends Controller {
 	}
 
 	//API
-
-	//api key checker
-	public function apiKeyChecker($apikey)
+	public function getRequest()
 	{
-		
+	 return json_decode(file_get_contents("php://input"));
 	}
-
+	public function getRespond($status,$data)
+	{
+		$respond = array('status'=>$status,'data'=>$data);
+		$json = json_encode($respond);
+		return $json;
+	}
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/fuad-tecs.iml" filepath="$PROJECT_DIR$/.idea/fuad-tecs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TECS web.iml" filepath="$PROJECT_DIR$/.idea/TECS web.iml" />
     </modules>
   </component>
 </project>
