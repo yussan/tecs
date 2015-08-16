@@ -1519,3 +1519,73 @@ Stack trace:
 #9 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
 #10 /var/www/html/project/2015/TECS/1.0/index.php(49): Illuminate\Foundation\Application->run()
 #11 {main} [] []
+[2015-08-16 17:03:35] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php:5680
+Stack trace:
+#0 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/html/project/2015/TECS/1.0/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-08-16 17:03:43] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php:5680
+Stack trace:
+#0 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/html/project/2015/TECS/1.0/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-08-16 17:05:43] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php:5680
+Stack trace:
+#0 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/html/project/2015/TECS/1.0/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-08-16 17:06:21] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php:5680
+Stack trace:
+#0 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/html/project/2015/TECS/1.0/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-08-16 17:06:40] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php:5680
+Stack trace:
+#0 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(10961): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/html/project/2015/TECS/1.0/tecs/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/html/project/2015/TECS/1.0/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []

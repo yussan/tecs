@@ -19,6 +19,8 @@
     "jquery-textcomplete": "~0.4.0",
     "jquery": "~2.1.4",
     "angular": "1.4.4",
+    "style-loader": "0.12.3",
+    "css-loader": "0.16.0",
     "semantic-ui": "2.0.8"
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 <script type="text/javascript">
-   $('.ui.dropdown').dropdown();
+   Jquery('.ui.dropdown').dropdown();
 </script>
 <!-- footer -->
 <footer>

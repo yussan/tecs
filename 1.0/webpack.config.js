@@ -1,22 +1,24 @@
 var webpack = require('webpack');
 var path = require('path');
-var BUILD_DIR = './assets';
+var BUILD_DIR = './src';
 
 module.exports = {
   entry: {
-   vendor: ['angular']
-  },
-  output: {
-    path: path.resolve(__dirname, BUILD_DIR),
-    filename: '[name].bundle.js',
-    chunkFilename: '[name].chunk.js',
-    publicPath: '/assets'
-  },
-    externals: {
-    'jquery': 'jQuery'
-  },
-   resolve: {
-    modulesDirectories: ['modules', 'node_modules'],
-    extensions: ['', '.ls', '.js']
-  }
+   public : ['./src/appPublic']
+ },
+ output: {
+  path: path.resolve(__dirname, BUILD_DIR),
+  filename: '[name].bundle.js',
+  chunkFilename: '[name].chunk.js',
+  publicPath: '/src'
+},
+resolve: {
+  modulesDirectories: ['node_modules'],
+  extensions: ['', '.ls', '.js']
+},
+module: {
+        loaders: [
+            { test: /\.css$/, loader: "style-loader!css-loader" }
+        ]
+    }
 };
