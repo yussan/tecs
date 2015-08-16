@@ -9,6 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/components/icon.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/admin.css">
 	<link rel="icon" href="assets/images/icon.jpg">
+	
+
 	<script src="assets/jquery-2.1.3.min.js"></script>
 	<script src="assets/semantic/semantic.min.js"></script>
 	<script src="assets/admin.js"></script>

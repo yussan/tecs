@@ -21,7 +21,17 @@ class BaseController extends Controller {
 		return $this->layout = View::make('bases/baseBody',$Data);
 	}
 
-	//API
+	#API
+	//is user logged in
+	public function checkLogin()
+	{
+		
+	}
+	//generate meta
+	public function generateMeta($kode,$type)
+	{
+		return array('kode'=>$kode,'type'=>$type);
+	}
 	public function getRequest()
 	{
 	 return json_decode(file_get_contents("php://input"));

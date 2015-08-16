@@ -1,0 +1,29 @@
+{
+  "name": "TECS-web",
+  "version": "1.0.0",
+  "description": "anak usaha Amikom untuk penjualan dan servis komputer dan periperalnya",
+  "main": "assets/app.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Sebangsa Web <web@sebangsa.com>",
+  "contributors": [
+    "Yusuf Akhsan Hidayat <yussandeveloper@gmail.com>",
+    "Ahmad Fuad <ahmad.fuad@students.amikom.ac.id>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yussan/tecs"
+  },
+  "dependencies": {
+    "jquery-textcomplete": "~0.4.0",
+    "jquery": "~2.1.4",
+    "angular": "1.4.4",
+    "semantic-ui": "2.0.8"
+  },
+  "devDependencies": {
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "~1.7.0"
+  },
+  "license":"MIT"
+}
