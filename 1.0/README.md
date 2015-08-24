@@ -4,5 +4,5 @@ $npm install
 ###to start runing, execute
 $webpack
 
-###to start developer, execute
+###to start develop, execute
 $webpack --progress --watch

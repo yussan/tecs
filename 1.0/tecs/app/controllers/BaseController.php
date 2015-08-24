@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 class BaseController extends Controller {
 
@@ -11,12 +11,15 @@ class BaseController extends Controller {
 	public function __construct()
 	{
 		//models decalaration
-		$this->M_member = new Member;
+		$this->M_barang = new Barang;
 	}
 
 	//base view
 	public function baseView($ChildView="",$Data="")
 	{
+		\Blade::setRawTags('[[', ']]');
+		\Blade::setContentTags('[[[', ']]]');
+		\Blade::setEscapedContentTags('[[[', ']]]');
 		$Data['ChildView'] = $ChildView;
 		return $this->layout = View::make('bases/baseBody',$Data);
 	}
@@ -36,9 +39,9 @@ class BaseController extends Controller {
 	{
 	 return json_decode(file_get_contents("php://input"));
 	}
-	public function getRespond($status,$data)
+	public function getRespond($params)
 	{
-		$respond = array('status'=>$status,'data'=>$data);
+		$respond = array('kode'=>$params[0],'message'=>$params[1],'data'=>$params[2]);
 		$json = json_encode($respond);
 		return $json;
 	}

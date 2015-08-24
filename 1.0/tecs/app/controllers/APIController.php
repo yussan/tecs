@@ -23,20 +23,40 @@ class APIController extends BaseController{
         $uri = Request::path();
         $urisegment = explode('/',$uri);
         //what's action
-        if(empty($urisegment[2])) $action='list';
-        else $action = $urisegment[2];
+        if(empty($urisegment[2])){$action='list';}
+        else{$action = $urisegment[2];}
         //do action
         switch($action)
         {
             case 'list':
-                $status = 'success';
-                $data ='data';
-                break;
+                if(!empty($_GET['q']))
+                {
+                    return $this->getRespond($this->M_barang->listBarang('','','',$_GET['q']));
+                }else{
+                    return $this->getRespond($this->M_barang->listBarang());
+                }
+            break;
+            case 'kategori':
+                //mainkategori
+                $mainkategori = $urisegment[3];
+                //subkategori
+                if(empty($urisegment[4])){$subkategori='';}else{$subkategori=$urisegment[4];}
+                //is do searching
+                if($_GET['q'])
+                {
+                    return $this->getRespond($this->M_barang->listBarang($mainkategori,$subkategori,'',$_GET['q']));
+                }else{
+                    return $this->getRespond($this->M_barang->listBarang($mainkategori,$subkategori));
+                }
+            break;
+            case 'latest'://order by latest item
+                return $this->getRespond($this->M_barang->listBarang('','','latest'));
+            break;
             default :
-                $status = 'error';
-                $data = 'undefined';
+                $kode = 404;//no content
+                $data = 'not found';
+                return $this->getRespond([$kode,$data]);
                 break;
+            }        
         }
-        return $this->getRespond($status,$data);
     }
-}

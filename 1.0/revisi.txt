@@ -1,0 +1,7 @@
+Table Alter
+hapus idSubKategori di main kategori
+tambah idKategori di sub kategori
+
+ubah idKategori di table barang menjadi idSubKategori
+hapus tglUpload
+tambah kolom views di tabel barang
