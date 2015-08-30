@@ -98,6 +98,7 @@ node_modules
 
 
 ### Laravel ###
+database.php
 /bootstrap/compiled.php
 .env.*.php
 .env.php

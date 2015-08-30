@@ -1,4 +1,0 @@
-
-<?php echo $__env->make('bases/baseHeader', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-<?php echo $__env->make($ChildView, array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-<?php echo $__env->make('bases/baseFooter', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
