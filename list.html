@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Tecs | Dashboard</title>
+	<link media="screen" rel="stylesheet" type="text/css" href="assets/semantic/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/components/icon.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/admin.css">
+	<link rel="icon" href="assets/images/icon.jpg">
+	<script src="assets/jquery-2.1.3.min.js"></script>
+	<script src="assets/semantic/semantic.min.js"></script>
+	<script src="assets/admin.js"></script>	
+</head>
+<body>
+	
+	<div class="ui row fixed inverted main menu">
+		<div class="container">
+			<a class="launch item">
+				<i class="icon lab"></i>
+				TECS Admin
+			</a>
+			<!-- <a class="icon item" href="/collections/breadcrumb.html"><i class="left chevron icon"></i></a> -->
+			<div class="right menu">
+				<div class="ui dropdown link item visible">
+					<input type="hidden" name="gender">
+					<i class="dropdown icon"></i>
+					<div style="color:#fff" class="default text">Yussan</div>
+					<div class="menu">
+						<div class="item" data-value="male">Edit Profile</div>
+						<div class="item" data-value="female">Logout</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<!-- end of header -->
+	<!-- start content -->
+	<div style="margin:0" class="ui grid full-width">
+		<div style="padding:0" class="row base-content">
+			<div class="three wide column">
+				<!-- start menu -->
+				<div style="width:100%" class="ui vertical menu">
+					<a class="active teal item">
+						Dashboard
+						<div class="ui teal label">1</div>
+					</a>
+					<a class="item">
+						Order
+						<div class="ui label">51</div>
+					</a>
+					<a class="item">
+						Kategori
+						<div class="ui label">1</div>
+					</a>
+					<a class="item">
+						Kategori
+						<div class="ui label">1</div>
+					</a>
+					<a class="item">
+						Blog
+						<div class="ui label">1</div>
+					</a>
+					<a class="item">
+						Slider
+						<div class="ui label">1</div>
+					</a>
+					<div class="item">
+						<div class="ui transparent icon input">
+							<input type="text" placeholder="Pencarian Semua...">
+							<i class="search icon"></i>
+						</div>
+					</div>
+				</div>
+				<!-- end of menu -->
+			</div>
+			<div class="white-content thirteen wide column">
+				<div class="row">
+					<div class="ui breadcrumb">
+						<a class="section">Admin</a>
+						<i class="right chevron icon divider"></i>
+						<a class="section">Dashboard</a>
+						<i class="right chevron icon divider"></i>
+						<a class="active section">Barang</a>
+					</div>
+				</div>
+				<h1 style="margin-bottom:0" class="admin-title">Manajemen Barang</h1>
+				<p>Menambah update dan hapus data barang</p>
+				<br/>
+				<div class="row">
+					<a class="ui primary button" onclick="return $('#tambahbarang').toggle('fast');" href="#"><i class="plus icon"></i> Tambah Barang</a>
+					<div class="ui compact menu">
+						<a class="item active">
+							Semua Barang
+							<div class="floating ui teal label">422</div>
+						</a>
+						<a class="item">
+							Stok Habis
+							<div class="floating ui red label">22</div>
+						</a>
+					</div>
+					<div style="float:right" class="ui pagination menu">
+						<a class="icon item">
+							<i class="left arrow icon"></i>
+						</a>
+						<a class="active item">
+							1
+						</a>
+						<div class="disabled item">
+							...
+						</div>
+						<a class="item">
+							10
+						</a>
+						<a class="item">
+							11
+						</a>
+						<a class="item">
+							12
+						</a>
+						<a class="icon item">
+							<i class="right arrow icon"></i>
+						</a>						
+					</div>		
+				</div>
+				<div style="display:none" id="tambahbarang">
+					<form method="POST">
+						<div class="ui padded grid">
+							<form method="POST">
+								<div class="two column row">
+									<div class="column">
+										<h2 class="ui header">Tambah Barang</h2>
+										<p>Gunakan form ini untuk menambah barang</p>									
+									</div>
+									<div class="column">
+									</div>
+								</div>
+								<div class="two column row">
+									<div class="column">
+										<div class="ui form">
+											<div class="field">
+												<label>Id Barang <br/><small>gunakan barcode sebagai id barang</small></label>
+												<input type="number" placeholder="masukan barcode barang" required>
+											</div>
+										</div>								
+									</div>
+									<div class="column">
+										<label><br/><small></small></label>
+										<div class="ui negative small message">
+											kode sudah tedaftar
+										</div>
+									</div>
+								</div>
+
+								<div class="two column row">
+									<div class="column">
+										<div class="ui form">
+											<div class="field">
+												<label>Nama Barang</label>
+												<input type="text" placeholder="masukan nama barang" required>
+											</div>
+										</div>								
+									</div>
+									<div class="column">
+										
+									</div>
+								</div>
+
+								<div class="two column row">
+									<div class="column">
+										<div class="ui form">
+											<div class="field">
+												<label>Stok</label>
+												<input style="width:100px" type="number" placeholder="masukan stok barang" required>
+											</div>
+										</div>								
+									</div>
+									<div class="column">
+										
+									</div>
+								</div>
+
+								<div class="two column row">
+									<div class="column">
+										<div class="ui form">
+											<div class="field">
+												<label>Tentang Barang<br/><small>masukan segala hal tentang barang, meliputi asal, kondisi warna yang disediakan</small></label>
+												<textarea rows="2" placeholder="masukan deskripsi singkat barang" required></textarea>
+											</div>
+										</div>								
+									</div>
+									<div class="column">										
+									</div>
+								</div>
+
+								<div class="two column row">
+									<div class="column">
+										<div class="ui form">
+											<div class="field">
+												<label>Kategori Barang<br/><small>pilih kategori barang</small></label>
+												<select>
+													<option value="">pilih kategori</option>
+													<option value="">display</option>
+													<option value="">konektor</option>
+												</select>
+											</div>
+										</div>								
+									</div>
+									<div class="column">										
+									</div>
+								</div>
+
+								<div class="two column row">
+									<div class="column">
+										<div class="ui form">
+											<div class="field">
+												<label>Spesifikasi Barang<br/><small>contoh penulisan spesifikasi sebagai berikut:<i><br/>monitor:14inc|harddisk:34GB<i></small></label>
+												<textarea rows="2" placeholder="masukan deskripsi singkat barang" required></textarea>
+											</div>
+										</div>								
+									</div>
+									<div class="column">										
+									</div>
+								</div>
+
+								<div class="two column row">
+									<div class="column">
+										<button type="submit" name="hapus" class="primary ui button"><i class="save icon"></i> Simpan</button>
+
+									</div>
+									<div class="column">
+										
+									</div>
+								</div>
+							</form>
+						</div>
+					</form>
+				</div>
+				<br/>
+				<!-- content -->
+				<div class="row">
+					<form>
+						<table class="ui table">
+							<thead>
+								<tr>
+									<th style="width:20px"></th>
+									<th style="width:100px">id barang</th>
+									<th>nama</th>
+									<th>merk</th>
+									<th>kategori</th>
+									<th>subkategori</th>
+									<th>stok</th>
+									<th>diskon</th>
+									<th>harga jual</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><input type="checkbox" value="id"></td>
+									<td>12</td>
+									<td>Nama barang</td>
+									<td>cisco houder</td>
+									<td>Networking</td>
+									<td>Antena</td>
+									<td>234</td>
+									<td>12%</td>
+									<td>Rp 67.000,-</td>
+									<td>
+										<a href=""><div class="mini ui icon button">
+											<i class="pencil icon"></i>
+										</div></a>
+										<a href=""><div class="mini negative ui icon button">
+											<i class="trash icon"></i>
+										</div></a>
+									</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox" value="id"></td>
+									<td>12</td>
+									<td>Nama barang</td>
+									<td>cisco houder</td>
+									<td>Networking</td>
+									<td>Antena</td>
+									<td>234</td>
+									<td>12%</td>
+									<td>Rp 67.000,-</td>
+									<td>
+										<a href=""><div class="mini ui icon button">
+											<i class="pencil icon"></i>
+										</div></a>
+										<a href=""><div class="mini negative ui icon button">
+											<i class="trash icon"></i>
+										</div></a>
+									</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox" value="id"></td>
+									<td>12</td>
+									<td>Nama barang</td>
+									<td>cisco houder</td>
+									<td>Networking</td>
+									<td>Antena</td>
+									<td>234</td>
+									<td>12%</td>
+									<td>Rp 67.000,-</td>
+									<td>
+										<a href=""><div class="mini ui icon button">
+											<i class="pencil icon"></i>
+										</div></a>
+										<a href=""><div class="mini negative ui icon button">
+											<i class="trash icon"></i>
+										</div></a>
+									</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox" value="id"></td>
+									<td>12</td>
+									<td>Nama barang</td>
+									<td>cisco houder</td>
+									<td>Networking</td>
+									<td>Antena</td>
+									<td>234</td>
+									<td>12%</td>
+									<td>Rp 67.000,-</td>
+									<td>
+										<a href=""><div class="mini ui icon button">
+											<i class="pencil icon"></i>
+										</div></a>
+										<a href=""><div class="mini negative ui icon button">
+											<i class="trash icon"></i>
+										</div></a>
+									</td>
+								</tr>							
+								<tr>
+									<td><input type="checkbox" value="id"></td>
+									<td>12</td>
+									<td>Nama barang</td>
+									<td>cisco houder</td>
+									<td>Networking</td>
+									<td>Antena</td>
+									<td>234</td>
+									<td>12%</td>
+									<td>Rp 67.000,-</td>
+									<td>
+										<a href=""><div class="mini ui icon button">
+											<i class="pencil icon"></i>
+										</div></a>
+										<a href=""><div class="mini negative ui icon button">
+											<i class="trash icon"></i>
+										</div></a>
+									</td>
+								</tr>	
+								<tr>
+									<td><input type="checkbox" value="id"></td>
+									<td>12</td>
+									<td>Nama barang</td>
+									<td>cisco houder</td>
+									<td>Networking</td>
+									<td>Antena</td>
+									<td>234</td>
+									<td>12%</td>
+									<td>Rp 67.000,-</td>
+									<td>
+										<a href=""><div class="mini ui icon button">
+											<i class="pencil icon"></i>
+										</div></a>
+										<a href=""><div class="mini negative ui icon button">
+											<i class="trash icon"></i>
+										</div></a>
+									</td>
+								</tr>	
+								<tr>
+									<td><input type="checkbox" value="id"></td>
+									<td>12</td>
+									<td>Nama barang</td>
+									<td>cisco houder</td>
+									<td>Networking</td>
+									<td>Antena</td>
+									<td>234</td>
+									<td>12%</td>
+									<td>Rp 67.000,-</td>
+									<td>
+										<a href=""><div class="mini ui icon button">
+											<i class="pencil icon"></i>
+										</div></a>
+										<a href=""><div class="mini negative ui icon button">
+											<i class="trash icon"></i>
+										</div></a>
+									</td>
+								</tr>	
+								<tr>
+									<td><input type="checkbox" value="id"></td>
+									<td>12</td>
+									<td>Nama barang</td>
+									<td>cisco houder</td>
+									<td>Networking</td>
+									<td>Antena</td>
+									<td>234</td>
+									<td>12%</td>
+									<td>Rp 67.000,-</td>
+									<td>
+										<a href=""><div class="mini ui icon button">
+											<i class="pencil icon"></i>
+										</div></a>
+										<a href=""><div class="mini negative ui icon button">
+											<i class="trash icon"></i>
+										</div></a>
+									</td>
+								</tr>	
+								<tr>
+									<td><input type="checkbox" value="id"></td>
+									<td>12</td>
+									<td>Nama barang</td>
+									<td>cisco houder</td>
+									<td>Networking</td>
+									<td>Antena</td>
+									<td>234</td>
+									<td>12%</td>
+									<td>Rp 67.000,-</td>
+									<td>
+										<a href=""><div class="mini ui icon button">
+											<i class="pencil icon"></i>
+										</div></a>
+										<a href=""><div class="mini negative ui icon button">
+											<i class="trash icon"></i>
+										</div></a>
+									</td>
+								</tr>	
+
+							</tbody>
+						</table>
+						<button type="submit" name="hapus" class="negative ui button"><i class="trash icon"></i> Hapus Dipilih</button>
+						<div style="float:right" class="ui pagination menu">
+							<a class="icon item">
+								<i class="left arrow icon"></i>
+							</a>
+							<a class="active item">
+								1
+							</a>
+							<div class="disabled item">
+								...
+							</div>
+							<a class="item">
+								10
+							</a>
+							<a class="item">
+								11
+							</a>
+							<a class="item">
+								12
+							</a>
+							<a class="icon item">
+								<i class="right arrow icon"></i>
+							</a>
+						</div>
+					</form>					
+
+				</div>	
+				<!-- end of content -->
+			</div>
+		</div>
+	</div>
+	<!-- end of content -->
+	<script type="text/javascript">
+		$('.ui.dropdown').dropdown();
+	</script>
+	<!-- footer -->
+	<footer>
+		<section id="basefooter">
+			<center>
+				copyright &copy; 2015 Time Excelindo Computer
+			</center>
+		</section>
+	</footer>
+	<!-- end of footer -->
+</body>
+</html>

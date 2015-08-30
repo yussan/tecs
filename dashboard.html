@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Tecs | Dashboard</title>
+	<link media="screen" rel="stylesheet" type="text/css" href="assets/semantic/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/components/icon.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/admin.css">
+	<link rel="icon" href="assets/images/icon.jpg">
+	<script src="assets/jquery-2.1.3.min.js"></script>
+	<script src="assets/semantic/semantic.min.js"></script>
+	<script src="assets/admin.js"></script>	
+</head>
+<body>
+	
+	<div class="ui row fixed inverted main menu">
+		<div class="container">
+			<a class="launch item">
+				<i class="icon lab"></i>
+				TECS Admin
+			</a>
+			<!-- <a class="icon item" href="/collections/breadcrumb.html"><i class="left chevron icon"></i></a> -->
+			<div class="right menu">
+				<div class="ui dropdown link item visible">
+					<input type="hidden" name="gender">
+					<i class="dropdown icon"></i>
+					<div style="color:#fff" class="default text">Yussan</div>
+					<div class="menu">
+						<div class="item" data-value="male">Edit Profile</div>
+						<div class="item" data-value="female">Logout</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<!-- end of header -->
+	<!-- start content -->
+	<div style="margin:0" class="ui grid full-width">
+		<div style="padding:0" class="row base-content">
+			<div class="three wide column">
+				<!-- start menu -->
+				<div style="width:100%" class="ui vertical menu">
+					<a class="active teal item">
+						Dashboard
+						<div class="ui teal label">1</div>
+					</a>
+					<a class="item">
+						Order
+						<div class="ui label">51</div>
+					</a>
+					<a class="item">
+						Kategori
+						<div class="ui label">1</div>
+					</a>
+					<a class="item">
+						Kategori
+						<div class="ui label">1</div>
+					</a>
+					<a class="item">
+						Blog
+						<div class="ui label">1</div>
+					</a>
+					<a class="item">
+						Slider
+						<div class="ui label">1</div>
+					</a>
+					<div class="item">
+						<div class="ui transparent icon input">
+							<input type="text" placeholder="Pencarian Semua...">
+							<i class="search icon"></i>
+						</div>
+					</div>
+				</div>
+				<!-- end of menu -->
+			</div>
+			<div class="white-content thirteen wide column">
+				<div class="row">
+					<div class="ui breadcrumb">
+						<a class="section">Admin</a>
+						<i class="right chevron icon divider"></i>
+						<a class="active section">Dashboard</a>
+					</div>
+				</div>
+				<h1 style="margin-bottom:0" class="admin-title">Admin Dashboard</h1>
+				<p>Selamat datang admin</p>
+				<br/>
+				<div class="row">
+					<div class="sixteen wide column">
+						<div class="ui four item teal menu">
+							<a class="active item">
+							Hari Ini
+							</a>
+							<a class="item">
+							Minggu Ini
+							</a>
+							<a class="item">
+							Bulan Ini
+							</a>
+							<a class="item">
+							Semua
+							</a>
+						</div>
+						<div class="column row">
+							...
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- end of content -->
+	<script type="text/javascript">
+		$('.ui.dropdown').dropdown();
+	</script>
+	<!-- footer -->
+	<footer>
+		<section id="basefooter">
+			<center>
+				copyright &copy; 2015 Time Excelindo Computer
+			</center>
+		</section>
+	</footer>
+	<!-- end of footer -->
+</body>
+</html>

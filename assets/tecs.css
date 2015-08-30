@@ -1,0 +1,44 @@
+/*base*/
+@font-face{font-family:latomedium;src:url(font/Lato-Medium.ttf);}
+body,html{font-family:latomedium !important;background-color:#fff !important;font-size: 12.5px !important}
+.title-menu{color:#617179;font-size: 15px;text-transform:uppercase;}
+header{padding:10px;background-color:#384245;color:#FFF;}
+header a{color:#fff !important;}
+header .logo{
+	background-image: url('logo.png');
+  height: 50px;
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header .right-menu{float:right;color:#7C8284;text-align:right}
+header .right-menu a{color:#A2AAAD !important;text-decoration: underline;}
+.loader{width:200px;position:fixed;bottom:10px;right:10px;z-index:200}
+nav{padding:10px;background-color:#313739;color:#FFF;}
+nav a{color:#D1D3D3 !important;text-transform:uppercase;}
+.newsbar{background-color:#f3f5f6}
+.newsbar .menu{padding:10px;}
+.newsbar a{color:#536874 !important;text-transform:uppercase;}
+.supportby img{width:100%;height:50px;vertical-align:middle}
+.textblue{padding:20px !important;font-size:20px !important;text-align:center;text-transform:uppercase;background-color: #49BBFE;color:#E2E2E2;}
+/*item sort*/
+.item-sort a h3{color:#a6b5bc;font-size: 15px;text-transform:uppercase;text-align:center}
+/*item*/
+.item-thumb p{margin:0;color:#617179;text-transform: capitalize;}
+div.thumb{width:100%;background-color:#f4f4f4}
+/*single*/
+h1.title{text-transform:capitalize;margin:0;}
+.single-detail{}
+.single-detail .main-picture{width:100%;}
+.single-detail .price{font-size: 1.6em}
+.single-detail .status{color:#7ac143;font-weight:700;font-size: 13px;}
+/*footer*/
+footer{margin-top:75px;background-color:#dee4e7}
+footer .level1{background-color:#dee4e7;padding:10px;/* padding-bottom: 0 !important; *//* margin-bottom: 0 !Important; */}
+footer .level2{position:relative;padding-bottom:20px !important;background-color:#384245;padding:10px;margin-top: 0 !important;z-index: 100;/* position: absolute; */display: block;}
+footer .level2-right{float:right;text-align:right}
+footer a.link{color:#517DB0 !important;}
+footer .footer-mascot-left{/* z-index:2000; */width:100%;height:300px;position:absolute;bottom: -210px;left: -23px;background-image:url('images/mascot/footer-timmy-meh.png');background-size: contain;background-repeat: no-repeat;/* padding: 0; */}
+footer .footer-mascot-right{width:100%;height:200px;background-image:url('images/mascot/footer-timmy-skywalker.png');margin: 0;}
+.footer-sosmed a{font-size: 25px;background-color: #3B83C0;color:#fff;border-radius: 40px;padding:5px;}
+.footer-sosmed a:hover{font-size: 30px;background-color: #16324A}

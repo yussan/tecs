@@ -1,8 +1,6 @@
-###first install node modules via
-$npm install
+# tecs1.0-frontend
+web frontend for tecs 1.0 ecommerce.
 
-###to start runing, execute
-$webpack
+By AhmadFuad Contributed by yussan : @xyussanx.
 
-###to start develop, execute
-$webpack --progress --watch
+Build by Semantic UI Framework
